@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">算法小游戏</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">Calculation Test</string>
+    <string name="button">ENTER</string>
+    <string name="image">shizhi</string>
+    <string name="Button1">1</string>
+    <string name="buton2">2</string>
+    <string name="Buton">3</string>
+    <string name="Buton4">4</string>
+    <string name="Buton5">5</string>
+    <string name="Button">6</string>
+    <string name="Button7">7</string>
+    <string name="Button8">8</string>
+    <string name="Button9">9</string>
+    <string name="Button_0">0</string>
+    <string name="Button_c">C</string>
+    <string name="Button_ok">OK</string>
+    <string name="View_1">1</string>
+    <string name="View_2">2</string>
+    <string name="View_d">=</string>
+    <string name="View_jia">+</string>
+    <string name="score">Score:%d</string>
+    <string name="Input">Your Answer</string>
+    <string name="win_image">win</string>
+    <string name="lost_image">lost</string>
+    <string name="textview_win_jiugou">New Record:%d</string>
+    <string name="textview_win_fenshu">You Win!</string>
+    <string name="textview_lost_jiugou">You Lost!</string>
+    <string name="textview_lost_fenshu">Your Score:%d</string>
+    <string name="button_win">Back</string>
+    <string name="button_lost">Back</string>
+    <string name="textview_HIGH">High Score:%d</string>
+    <string name="answer_messages">GO!</string>
+    <string name="view_wen">\?</string>
+    <string name="Buile_data">Are you sure to quit</string>
+    <string name="Builet_data2">Ok</string>
+    <string name="Data2">Cancel</string>
+</resources>

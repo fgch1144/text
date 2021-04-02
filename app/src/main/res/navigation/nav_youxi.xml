@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_youxi"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.xiaoyouxi.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_onFragment"
+            app:destination="@id/onFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onFragment"
+        android:name="com.example.xiaoyouxi.OnFragment"
+        android:label="fragment_on"
+        tools:layout="@layout/fragment_on" >
+        <action
+            android:id="@+id/action_onFragment_to_winFragment"
+            app:destination="@id/winFragment" />
+        <action
+            android:id="@+id/action_onFragment_to_loseFragment"
+            app:destination="@id/loseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.example.xiaoyouxi.WinFragment"
+        android:label="fragment_win"
+        tools:layout="@layout/fragment_win" >
+        <action
+            android:id="@+id/action_winFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loseFragment"
+        android:name="com.example.xiaoyouxi.LoseFragment"
+        android:label="fragment_lose"
+        tools:layout="@layout/fragment_lose" >
+        <action
+            android:id="@+id/action_loseFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>
